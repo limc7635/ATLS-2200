@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto;
+  padding:0;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1{
+  background-color:rgb(200,200,0)
+  margin-left: 25px;
+  font-family:"Grechen Fuemen";
+}
+
+
+.grey{
+    color: rgb(100,100,100);
+}
+
+.background{
+  background-color:rgb(225, 225, 225);
+}
+
+p.background {
+  color:red;
+}
+
+hr{
+  border: dashed rgb(255,225,0) 2px;
+}
+
+#two{
+  border: solid black 1px;
+  background-color: green;
+  /*padding: top right bottom left */
+  padding: 30px 0px 30px 0px;
+  margin: 0px 30px 0px 30px;
+}
+
+section{
+  border: solid black 1px;
+}
+
+#hero{
+  width:20vw;
+  margin: 0px;
+  padding; 0px;
+  z-index:-1;
+}
+
+#header{
+  height:50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#header h1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
