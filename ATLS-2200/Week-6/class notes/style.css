@@ -1,0 +1,81 @@
+:body{
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: "Scheherazade New"
+}
+
+h2{
+  font-size: 40px;
+}
+
+#summer{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#summer img{
+  width: 100vw;
+  position: relative;
+  bottom: 100px;
+}
+
+#summer h1{
+  z-index: 1;
+  position: relative;
+  font-size: 10vw;
+  top: 50vh;
+  margin: 0 0 0 7vw;
+  color: white;
+}
+
+#one, #two #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 10vw;
+}
+
+button{
+  background-color: orange;
+  font-family: "Scheherazade New";
+  font-size: 30px;
+  padding: 7px 20px;
+  position:relative;
+  left: 50vw;
+}
+
+button:active{
+  background-color: blue;
+  color: white;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+a:link{
+  color:blue
+}
+
+a:visited{
+  color: lightgrey;
+}
+
+a:active{
+  color:red;
+}
+
+a:hover{
+  font-size: 200%;
+  color: red;
+}
