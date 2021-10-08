@@ -1,0 +1,47 @@
+#quotesection{
+  background-color:#fcba03;
+  margin: 30vh 20vw;
+  padding: 8vh 10vw 10vw;
+  border-radius: 8px;
+}
+
+button{
+  border-radius: 8px;
+  border-color: white;
+  padding: 1vh 3vw;
+  margin-top: 1vh;
+  float: right;
+  font-family:"Open Sans"
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+button:active{
+  color: #d1cac7;
+}
+
+h1{
+  color: white;
+  font-family:"Yanone Kaffeesatz"
+  font-weight: 200;
+}
+
+#flex{
+  display: flex;
+  margin: 150px;
+}
+
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+
+.flexitem2{
+  flex-grow: 2;
+}
