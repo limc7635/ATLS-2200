@@ -1,0 +1,37 @@
+body{
+  background-color: #708255;
+}
+
+#quotesection{
+  background-color:#b5c89b;
+  margin: 30vh 30vw;
+  padding: 5vh 5vw 4vw;
+  border-radius: 30px;
+  border: solid 7px #96a87c;
+  font-family:"Gloria Hallelujah"
+}
+
+button{
+  border-radius: 8px;
+  border-color: #708255;
+  background-color: #708255;
+  padding: 1vh 1vh 1vw;
+  font-size: 100%;
+  float: right;
+  font-family:"Open Sans" 20px;
+  color: #ffb012;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+button:active{
+  color: #708255;
+}
+
+h1{
+  color: #e8f6db;
+  font-size: 200%;
+  font-weight: 200;
+}
