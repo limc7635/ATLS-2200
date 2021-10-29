@@ -1,0 +1,65 @@
+body{
+  background-color: #6893be;
+}
+
+#tabs{
+  display: flex;
+  margin: 17vh 10vw 0 10vw;
+  font-size: 1.3em;
+}
+
+#items{
+  display: flex;
+  margin: 0vh 10vw 0 10vw;
+  background-color: #ecded4;
+  font-family: 'Amatic SC', cursive;
+  color: #c34635;
+  padding-top: 40px;
+  font-size: 3em;
+
+}
+
+.day{
+  flex-grow: 1;
+  width: auto;
+  border: 2px solid #eccfc4;
+  background-color: #ecded4;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: #b45843;
+
+}
+
+h1{
+  display: none;
+
+}
+
+#image, .tasks{
+  flex-grow: 1;
+  width:auto;
+  max-width: 100%;
+}
+
+
+#Mondaylist, #Tuesdaylist, #Wednesdaylist, #Thursdaylist, #Fridaylist, #Saturdaylist{
+  display: none;
+}
+
+.active{
+  background-color: #ecd4cc;
+  border-bottom: none;
+}
+
+img{
+  width: 100%;
+  max-height: 90%;
+  width: 300px;
+ height: 460px;
+ object-fit: cover;
+  display: block;
+  margin: auto;
+  border: 3px solid #c34635;
+  border-radius: 25px;
+/*  object-position: 20% 10%;*/
+}
