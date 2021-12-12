@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Source+Sans+Pro:wght@200&display=swap">
+  </head>
+  <body>
+
+    <section id= "contactPage">
+      <img id="contact" src="contact.jpg" alt="contact">
+      <h1>Beach House</h1>
+      <p>Get notified about exclusive content, merch, and event drops</p>
+    </section>
+
+    <div class="container">
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Enter email">
+<section id="following">
+  <h1>button</h1>
+  <button id="follow">Follow</button>
+</section>
+
+
+    </div>
+
+    <script>
+      console.log("javascript working");
+      document.getElementById("follow").addEventListener("click", buttonClicked);
+
+
+      function buttonClicked(){
+        alert("You are now following Beach House. :)");
+      }
+    </script>
+
+
+</body>
+</html>
