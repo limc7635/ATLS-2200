@@ -1,0 +1,229 @@
+body{
+  background-color: #fff0f5 ;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#top{
+  display: flex;
+  font-size: 20px;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+.options:hover{
+  color: #c80815;
+}
+
+#home{
+  width: 900px;
+  height: 750px;
+  left: 20px;
+  padding: 10px;
+  padding-bottom: 20px;
+  position: fixed;
+}
+
+#music{
+  font-size: 100px;
+  float: right;
+  margin-top: 0vw;
+  margin-right: 9vw;
+}
+
+#link{
+  position: absolute;
+  right: 330px;
+  top: 340px;
+}
+.listen {
+  font-size: 15px;
+  border: solid #c80815 2px;
+  border-radius: 100px;
+  margin: 2vw;
+  padding: 0px 90px 0px 30px;
+  display: flex;
+}
+
+.listen:hover{
+  background-color: #c80815;
+}
+
+.listen:buttonClicked{
+  color: inherit;
+}
+
+#tourdates{
+  display:flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  right: 45px;
+  top: 640px;
+  position: absolute;
+}
+
+#tourdates h1{
+  right: 300px;
+  top: -70px;
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.entiretour{
+  flex-grow: 1;
+  width: auto;
+  margin: 2vw;
+}
+
+.dates{
+  font-weight: bolder;
+}
+
+.tickets{
+  text-decoration: underline;
+}
+
+#contact{
+  max-width: 950px;
+  height: 800px;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  padding-top: 80px;
+  padding-left: 40px;
+  border-radius: 800px;
+}
+
+#contactPage h1{
+    flex-grow: 1;
+    width: auto;
+    font-size: 60px;
+    position: absolute;
+    right: 360px;
+    top: 30px;
+  }
+
+#contactPage p{
+  font-size: 30px;
+  position: absolute;
+  top: 130px;
+  right: 270px;
+  overflow-wrap: break-word;
+  inline-size: 400px;
+}
+
+#contactPage{
+  display: flex;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 120px;
+}
+
+button {
+  background-color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  color: grey;
+}
+
+button:hover{
+  background-color: #fff0f5;
+  color: #c80815;
+  border: none;
+}
+
+button:active{
+  background-color: #fff0f5;
+  color: #c80815;
+  border: none;
+}
+
+.container{
+  bottom: 500px;
+  left: 1100px;
+  position: absolute;
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+  overflow-wrap: break-word;
+}
+
+#grid img{
+  max-width: 100%;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+#store h1{
+  left: 650px;
+  display: flex;
+  position: relative;
+  font-size: 80px;
+}
+
+#beach1:hover{
+  border: 5px solid pink;
+}
+
+#beach2:hover{
+  border: 5px solid pink;
+}
+
+#beach3:hover{
+  border: 5px solid pink;
+}
+
+#beach4:hover{
+  border: 5px solid pink;
+}
+
+#beach5:hover{
+  border: 5px solid pink;
+}
+
+#beach6:hover{
+  border: 5px solid pink;
+}
+
+#beach7:hover{
+  border: 5px solid pink;
+}
+
+#beach8:hover{
+  border: 5px solid pink;
+}
+
+#following h1{
+  display: none;
+}
+
+#grid h2{
+  display: none;
+}
